@@ -24,5 +24,5 @@ jobs:
           file: ./src/Dockerfile
           push: true
           tags: |
-            rtaguirre/proj-kube-news:v1
+            rtaguirre/proj-kube-news:${{github.run_number}}
             rtaguirre/proj-kube-news:latest
